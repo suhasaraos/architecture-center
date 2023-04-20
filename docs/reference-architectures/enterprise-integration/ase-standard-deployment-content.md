@@ -6,7 +6,7 @@ This reference architecture demonstrates a common enterprise workload using App 
 
 :::image type="content" border="false" source="./_images/standard-ase-deployment.png" alt-text="Diagram showing architecture for standard App Service Environment deployment." lightbox="./_images/standard-ase-deployment.png":::
 
-*Download a [Visio file](https://arch-center.azureedge.net/standard-ase-deployment.vsdx) of this architecture.*
+*Download a [Visio file](./files/standard-ase-deployment.vdsx) of this architecture.*
 
 ### Workflow
 
@@ -45,7 +45,7 @@ The following services are key to locking down the ASE in this architecture:
 
 :::image type="content" border="false" source="./_images/ase-multi-site.png" alt-text="Diagram showing multi-site deployment." lightbox="./_images/ase-multi-site.png":::
 
-*Download a [Visio file](https://arch-center.azureedge.net/standard-ase-deployment.vsdx) of this diagram.*
+*Download a [Visio file](./files/standard-ase-deployment.vdsx) of this diagram.*
 
 Internal ASE can host several web apps and APIs with HTTP endpoints. These applications are locked down from the public internet as the ILB IP is only accessible from within the Virtual Network. The [Application Gateway](/azure/application-gateway/overview) is used to selectively expose these applications to the internet. ASE assigns a default URL to each App Service application as `<default-appName>.<ASE-domain>.appserviceenvironment.net`. A [private DNS zone](/azure/dns/private-dns-overview) is created that maps the ASE domain name to the ASE ILB IP address. This avoids using a custom DNS to access the apps within the VNet.
 
