@@ -309,7 +309,7 @@ Principal author:
  Contributors:
 
 - [Suhas Rao](https://www.linkedin.com/in/suhasaraos/) | Cloud Solution Architect
-- [Deep Bhattacharya] () | Cloud Solution Architect
+- [Deep Bhattacharya] (https://www.linkedin.com/in/deeplydiligent/) | Cloud Solution Architect
 
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
