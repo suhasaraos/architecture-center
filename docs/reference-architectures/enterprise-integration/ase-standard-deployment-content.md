@@ -4,7 +4,7 @@ This reference architecture demonstrates a common enterprise workload using App 
 
 ## Architecture
 
-:::image type="content" border="false" source="./_images/standard-ase-deployment.png" alt-text="Diagram showing architecture for standard App Service Environment deployment." lightbox="./_images/standard-ase-deployment.png":::
+![Diagram showing architecture for standard App Service Environment deployment](./_images/standard-ase-deployment.png)
 
 *Download a [Visio file](./files/standard-ase-deployment.vdsx) of this architecture.*
 
